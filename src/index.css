@@ -25,6 +25,8 @@
   --admin-panel-sidebar-border-color: #a9a9a9;
   --side-bar-active-bg-color: #fff0ed;
   --admin-panel-add-item-color: #6d6d6d;
+  --admin-panel-list-item-borer-color: #cacaca;
+  --admin-panel-list-item-bg-color: #f9f9f9;
 }
 
 @keyframes fadeIn {
