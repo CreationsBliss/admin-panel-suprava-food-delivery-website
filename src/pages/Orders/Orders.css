@@ -1,0 +1,7 @@
+.orders {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: var(--admin-panel-add-item-color);
+  font-size: 16px;
+}

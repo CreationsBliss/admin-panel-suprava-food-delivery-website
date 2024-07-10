@@ -1,11 +1,11 @@
-import './Orders.css';
+import "./Orders.css";
 
 const Orders = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div className="orders">
+      <p>Orders</p>
+    </div>
+  );
 };
 
 export default Orders;
