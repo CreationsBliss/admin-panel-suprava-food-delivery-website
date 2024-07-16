@@ -10,6 +10,12 @@
 .list-table-format.title {
   background: var(--admin-panel-list-item-bg-color);
 }
+.list-table-format img {
+  width: 50px;
+}
+.cursor {
+  cursor: pointer;
+}
 
 /* Media Query */
 @media (max-width: 600px) {

@@ -7,6 +7,8 @@ import Add from "./pages/Add/Add.jsx";
 import List from "./pages/List/List.jsx";
 import Orders from "./pages/Orders/Orders.jsx";
 
+const url = "http://localhost:4000";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,15 +16,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/add",
-        element: <Add></Add>,
+        element: <Add url={url}></Add>,
       },
       {
         path: "/list",
-        element: <List></List>,
+        element: <List url={url}></List>,
       },
       {
         path: "/orders",
-        element: <Orders></Orders>,
+        element: <Orders url={url}></Orders>,
       },
     ],
   },

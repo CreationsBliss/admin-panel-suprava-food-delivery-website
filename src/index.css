@@ -27,6 +27,8 @@
   --admin-panel-add-item-color: #6d6d6d;
   --admin-panel-list-item-borer-color: #cacaca;
   --admin-panel-list-item-bg-color: #f9f9f9;
+  --admin-panel-all-orders-color: #505050;
+  --admin-panel-all-orders-select-menu-bg-color: #ffe8e4;
 }
 
 @keyframes fadeIn {
